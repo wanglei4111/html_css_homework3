@@ -1,0 +1,242 @@
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 960px;
+            margin: 0 auto;
+        }
+        h1{
+            font-size: 35px;
+        }
+        /*header*/
+        header{
+            width: 100%;
+            height: 70px;
+        }
+        #logo{
+            float: left;
+            width: 140px;
+            margin: 12px 0 0 130px;
+        }
+        header li{
+            list-style: none;
+            position: relative;
+            left: 220px;
+            float: left;
+            margin: 40px 0 0 40px;
+            font-size: 13px;
+            color: rgb(25, 2, 90);
+            font-weight: 400;
+        }
+        #phone-logo{
+            width:11px;
+        }
+        .font-green{
+            color: green;
+        }
+        /*introduce*/
+        .block{
+            width: 100%;
+            height: 350px;
+            background-color: rgb(247, 248, 250); 
+            box-sizing: border-box;
+        } 
+        .block-text{
+            width: 50%;
+            height: 100%;
+            float: left;
+        }
+        .block-text h1{
+            font-size: 35px;
+            color:rgb(25, 2, 90);
+            margin: 60px 0 0 100px;
+            font-weight: 400;
+        }
+        .block-text p{
+            float: left;
+            font-size: 19px;
+            color:rgb(25, 2, 90);
+            margin: 30px 0 0 100px;
+            line-height: 30px;
+            font-weight: 400;
+        }
+        .block img{
+            position: relative;
+            float: left;
+            width: 400px;
+        }
+        /*advantage*/
+        .horizontal{
+            width: 100%;
+            height: 300px;
+            padding: 0 0 0 80px;
+            box-sizing: border-box;
+        }
+        .horizontal li{
+            list-style: none;
+            float: left;
+            margin: 60px 80px 0 0;
+        }
+        .horizontal li img{
+            width: 90px;
+            margin: 0 0 0 58px;
+        }
+        .horizontal li h2{
+            font-size: 20px;
+            color: rgb(25, 2, 90);
+            margin: 5px 0 10px 62px; 
+        }
+        .horizontal li p{
+            float: left;
+            color: rgba(25, 2, 90, 0.39);
+            font-weight:400 ; 
+            font-size:15px;
+        }        
+        /*advertising*/
+        .put{
+            width: 800px;
+            height: 1060px;
+            margin: 0 auto;
+        }
+        .put h1{
+            text-align: center;
+            color:rgb(25, 2, 90);
+            font-size: 35px;
+            font-weight: 400;
+        }
+        .put figure{
+            float: left;
+            width: 220px;
+            height: 190px;
+            margin: 40px 22px 0 23px;
+            box-shadow: 0 0 10px rgb(184, 184, 184);
+        }
+        .put figure img{
+            width: 220px;
+        }
+        .datalist{
+            float: left;
+            list-style: none;
+            margin: 10px 0 0 0;
+        }
+        .datalist-33{
+            width: 33%;    
+        }
+        .datalist-50{
+            width: 50%;
+        }
+        .put figure figcaption ul li{
+            color: rgb(25, 2, 90);
+            text-align: center
+        }
+        .put figure figcaption ul li:nth-child(1){
+            font-size: 18px;
+        }
+        .put figure figcaption ul li:nth-child(2){
+            font-size: 12px;
+            font-weight: 200;
+        }
+        /*
+        .put figure:last-child::after{
+            content: ".";
+            display: block;
+            height: 1;
+            visibility: hidden;
+            clear: both;
+        }
+        */
+        .putFollow{
+            width: 100%;
+            height: 180px;
+        }
+        .putFollow-son{
+            width: 660px;
+            height: 105px;
+            border: 1px solid rgb(25, 2, 90);
+            margin: 0 auto;
+        }
+        .putFollow-son-left{
+            float: left;
+        }
+        .putFollow-son-left p{
+            color: rgb(25, 2, 90);
+            margin: 8px 0 0 40px;
+            font-size: 28px;
+            font-weight:300;
+            letter-spacing:4px;
+        }
+        .putFollow-son button{
+            width: 200px;
+            height: 40px;
+            font-size: 20px;
+            border-radius: 4px;
+            background: linear-gradient(to right,rgb(100, 200, 60),rgb(94, 190, 210));
+            color: white;
+            float: right;
+            margin: 32px 32px 0 0; 
+        }
+        /*footer*/
+        footer{
+            width: 100%;
+            height: 300px;
+            background-color: rgb(247, 248, 249);
+        }
+        #hr{
+            width: 80%;
+            border-top: 1px solid rgb(196, 196, 206);
+            margin: auto;
+        }
+        .footer-firstpart{
+            width: 100%;
+            height: 67%
+        }
+        .footer-firstpart-left{
+            width: 50%;
+            float: left;
+            padding: 30px 0 0 100px;
+            box-sizing: border-box;
+        }
+        .footer-firstpart-middle{
+            width: 20%;
+            float: left;
+            padding: 30px 0 0 30px;
+            box-sizing: border-box;
+        }
+        .footer-firstpart-right{
+            width: 30%;
+            float: left;
+            padding: 30px 0 0 10px;
+            box-sizing: border-box;
+        }
+        .footer-firstpart h3{
+            font-size: 12px;
+            color: rgb(25, 2, 90);
+            margin: 0 0 20px 0 ;
+        }
+        .footer-firstpart li{
+            list-style: none;
+            font-size: 12px;
+            color: rgb(25, 2, 90);
+            margin: 10px 0 0 0 ;
+        }
+
+        .footer-lastpart img{
+            width: 120px;
+            margin: 30px 0 0 100px;
+        }
+        .footer-lastpart-text{
+            float: right;
+            margin: 32px 100px 0 0;
+        }
+        .footer-lastpart-text p{
+            float: right;
+            font-size: 12px;
+            color: rgb(25, 2, 90);
+        }
+        .footer-lastpart-text span{
+            display: block;
+            clear: both;
+            visibility: hidden;
+            height: 0;
+        }
